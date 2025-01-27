@@ -1,0 +1,43 @@
+name: stroll_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.8.4
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.5
+  phosphor_flutter: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Proxima Nova
+      fonts:
+      - asset: assets/fonts/proximanova_regular.ttf
+        style: normal
+      - asset: assets/fonts/proximanova_light.otf
+        style: italic
+      - asset: assets/fonts/proximanova_bold.otf
+        weight: 700
